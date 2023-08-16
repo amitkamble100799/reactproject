@@ -112,7 +112,7 @@ function Home() {
 <div className='hmain3'>
 <div className='hmain31'> 
 <div className='hmain311 latesArticle'> 
-<p><img  src={arrowr}/><span className='dm'> Load More</span></p>  
+<p><img  src={arrowr}  alt='Not Found'/><span className='dm'> Load More</span></p>  
 {DData.filter((item)=>((item.cat==='Hollywood') && (item.id>=26))).map((data,holly)=>{
             return(
                 <>
@@ -297,7 +297,7 @@ function Home() {
 
 </div>
 <hr className='hstories'/>
-<p className='view'>View More<img src={arrowl}/> </p>
+<p className='view'>View More<img src={arrowl}  alt='Not Found'/> </p>
     </div>
     </>
   )
