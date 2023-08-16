@@ -33,7 +33,7 @@ function Bollywood() {
         })
 
         } 
-        <p><span > Load More</span><img className='d' src={arrowr}/></p>
+        <p><span > Load More</span><img className='d' src={arrowr}  alt='Not Found'/></p>
       
         </div>
         <div className='seccnt'>
