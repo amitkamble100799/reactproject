@@ -33,7 +33,7 @@ const [DData]=useContext(Store)
       })
 
       } 
-     <p><span > Load More</span><img className='d' src={arrowr}/></p>
+     <p><span > Load More</span><img className='d' src={arrowr}  alt='Not Found'/></p>
       </div>
       <div className='seccnt'>
         <h1  className='b1'>Top Posts</h1>
