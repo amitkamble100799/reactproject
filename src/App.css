@@ -1,0 +1,606 @@
+/* Lnkcmp css*/
+
+.hdl{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  left: 48%;
+  top: -45px;
+}
+#header-the{
+  width: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  
+  transform: rotate(270deg);
+  text-align: center;
+}
+#header-siren{
+  font-size: 30px;
+  margin-left: 2px;
+ 
+  font-weight: bold;
+  transform: rotate(90deg);
+}
+.menu{
+  width: 70%; 
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  background-color:rgb(62, 231, 56);
+  align-items: center;
+  height: 50px;
+  width: 100%;
+box-shadow: 2px 0px 1px ;
+margin-top: 80px;
+}
+
+.mobile-menu-icon{
+  display: none;
+}
+.lnk{
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  
+}
+.lnk:hover{
+  background-color: rgb(97, 168, 25);
+  height: 40px;
+}
+#hr{
+  display: none;
+}
+#btn1{
+ position: absolute;
+ top: 20px;
+ right: 20px;  
+}
+.d{
+ position:absolute;
+ left: 12%;
+ padding-right: 1px;
+}
+.dm{
+  position:absolute;
+  left: 10%;
+}
+/* Homecmp css*/
+.hmain{
+  margin: 50px;
+}
+.title{
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  color: rgb(227, 222, 216);
+}
+.title1{
+  position: absolute;
+  top: 40%;
+  left: 62%;
+  color: rgb(189, 187, 184);
+}
+.title2{
+  position: absolute;
+  top: 75%;
+  left: 62%;
+  color: rgb(201, 200, 197);
+}
+.hmain1{
+display: flex;
+gap: 60px;
+}
+.hmain2{
+  display: flex;
+  gap: 60px;
+}
+.bsimg{
+  width:350px;
+}
+.bsh{
+  width: 200px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.bdsc{
+  display: flex;
+  gap: 50px;
+}
+.number{
+  font-size: 40px;
+  color: darkgray;
+}
+#number{
+  margin-top: 10px;
+  width: 50px;
+}
+#st{
+  margin-left: 20%;
+}
+.short{
+  display: flex;
+  gap: 20px;
+  width: 340px;
+  height: 100px;
+}
+.bsimg1{
+  margin-top: 20px;
+  width: 60px;
+}
+
+.homemain{
+  display: flex;
+  gap: 50px;
+  margin: 50px;
+}
+.himg1{
+  height: 500px;
+  width: 800px;
+}
+.himg2{
+  height: 230px;
+  width: 400px;
+  margin-bottom: 30px;
+}
+.himg3{
+  height: 230px;
+  width: 350px;
+  margin-right: 40px;
+}
+.himg4{
+  height: 160px;
+  width: 200px;
+  margin-right: 40px;
+}
+.himg5{
+  width: 230px;
+  height: 180px;
+}
+.himg6{
+  width: 50vw;
+  height: 600px;
+}
+.hdsc{
+  width: 350px;
+}
+.homelates{
+  display: flex;
+  margin: 50px;
+}
+.b1{
+  text-decoration: underline solid rgb(215, 57, 57);
+  font-weight: 300;
+}
+.b2{
+  text-decoration: underline solid rgb(215, 57, 57);
+  font-weight: 300;
+}
+.bcontainer{
+  display: flex;
+  gap: 20px;
+  width: 440px;
+  height: 200px;
+}
+.bcontainer1{
+  display: flex;
+  gap: 20px;
+  width: 30vw;
+  font-size: 1rem;
+}
+
+.img{
+  height: 160px;
+  width: 200px;
+}
+.dsc1{
+  position: relative;
+  top: -20px;
+ 
+}
+.dsc{
+  position: relative;
+  top: -20px;
+ height: 200px;
+}
+.ds{
+  color: darkgray;
+}
+.Mainc{
+  margin-left: 100px;
+  display: flex;
+  gap: 250px;
+  font-size: 1rem;
+}
+.latesArticle{
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 70px;
+}
+.shorthome{
+  display: flex;
+  width: 24vw;
+  height: 180px;
+}
+.hmain3{
+  display: flex;
+  gap: 50px;
+}
+.hmain32{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.hmain4{
+display: flex;
+gap: 20px;
+}
+.hmain41{
+  width: 60vw;
+}
+.view{
+  color: rgb(0, 26, 255);
+}
+.hlastc2{
+  display: flex;
+}
+.Hmlates{
+  display: flex;
+  gap: 250px;
+}
+.Adds{
+  border: 2px solid rgba(155, 148, 148, 0.638);
+  display: flex;
+  width: 300px;
+  height: 600px;
+ font-size: 28px;
+ font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+.Addsabove{
+  display: flex;
+flex-direction: column;
+position: absolute;
+top: 210%;
+left: 60%;
+}
+.Addsbelow{
+display: flex;
+flex-direction: column;
+}
+/*detai*/
+.mdetai{
+display: flex;
+margin: 20px;
+gap: 100px;
+}
+.like-share{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 60%;
+  gap: 50px;
+}
+.avtaricon{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.lg{
+  position: absolute;
+  height: 50px;
+ left: 90%;
+}
+
+.im{
+width:100vh;
+height: 500px;
+margin-bottom: 20px;
+}
+
+.dtds{
+  width:100vh;
+  font-size: large;
+}
+.js{
+  width: 200px;
+  margin: 10px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: darkgray;
+}
+.mimage{
+  position: relative;
+  left: 50%;
+}
+.avtar{
+  display: flex;
+  gap: 20px;
+}
+.avtar1{
+  display: flex;
+  width: 100vh;
+  gap: 20px;
+}
+.dmainc2{
+  display: flex;
+  justify-content: space-between;
+}
+.dbox{
+ 
+  border: 1px solid rgb(209, 203, 203);
+  background-color: rgba(255, 251, 251, 0.615);
+}
+
+.dmg{
+  height: 200px;
+}
+.av{
+  height: 50px;
+}
+.avc{
+  display: flex;
+  gap: 20px;
+}
+
+.p{
+  text-align:center;
+  margin: 20px;
+  margin-left: 40px;
+}
+
+.lateststory{
+  margin-left: 20px;
+ 
+}
+/* mobile view*/
+@media only screen and (min-width: 300px) and (max-width:600px) {
+  .Adds{
+    display: none;
+  }
+    /*lnk css*/
+        .hdl{
+      top: -52px;
+    }
+    #hr{
+      display: block;
+    }
+    .mobile-menu-icon{
+      display: block;
+    }
+    .menu{
+      display: flex;
+      flex-direction: column;
+      height: 50%;
+      margin-top: 80px;
+    }
+    .lnk{
+      border: 2px solid white;
+      width: 99vw;
+      text-align: center;
+    }
+  /* */
+    .Mainc{
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      gap: 0px;
+  font-size: 0.9rem;
+      } 
+      .hmain{
+        margin:5px;
+      }
+      .hmain1{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        }
+   .hmain2{
+    display: flex;
+    flex-direction: column;
+   }
+   .hmain3{
+    display: flex;
+    flex-direction: column;
+   
+   }
+    .bcontainer{
+      width: 90vw;
+      height: 200px;
+    }
+    .blcontainer1{
+      display: flex;
+      flex-direction: row-reverse;
+      margin-left: 25px;
+      width: 90vw;
+    }
+    .bcontainer1{
+display: flex;
+flex-direction: column;
+width: 80vw;
+    }
+
+    .latesArticle{
+      margin: 0px;
+    }
+    .shorthome{
+      display: flex;
+      gap: 20px;
+      height: 120px;
+    }
+    .bsimg1{
+      width: 15vw;
+      height: 15vh;
+    }
+  .hmain3{
+      display: flex;
+      flex-direction: column;
+    }
+    .hmain4{
+      display: flex;
+      flex-direction: column;
+      width: 90vw;
+      gap: 10px;
+    }
+    .hmain41{
+      width: 80vw;
+    }
+    .hmain42{
+      width: 80vw;
+    }
+    .hmain43{
+      width: 80vw;
+    }
+    .hstories{
+width: 90vw;
+    }
+    .bsimg{
+      width: 80vw;
+      height: 250px;
+    }
+   .img{
+    height: 140px;
+    width: 30vw;
+  }  
+  .bsh{
+    width: 80vw;
+  } 
+  .ds{
+    width: 50vw;
+    
+  }
+  .d{
+    position:absolute;
+    left: 20%;
+    padding-right: 1px;
+   }
+
+  #st{
+   display: none;
+  }
+  #number{
+    display: none;
+  }
+ 
+  .mdetai{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+ .like-share{
+  display: none;
+ }
+ .lg{
+  position: absolute;
+  height: 50px;
+ left: 50%;
+ }
+ .im{
+  width:85vw;
+height: 300px;
+margin-bottom: 20px;
+ }
+ .dtds{
+  width:80vw;
+  font-size: 1em;
+}
+.avtar1{
+  display: flex;
+  width: 55vw;
+  gap: 20px;
+}
+/* .detailsmall{
+  display: flex;
+  flex-direction:column;
+  width: 50vh;
+  top: 240%;
+  border: none;
+  background-color: none;
+} */
+.avc{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.av{
+  display: none;
+}
+.dmg{
+width: 100px;
+height: 100px;
+}
+
+
+.homemain{
+  margin: 10px;
+}
+.hmain12{
+display: none;
+}
+.home2{
+  display: none;
+}
+.himg1{
+  margin: 0px;
+  width: 90vw;
+  height: 50vw;
+}
+.himg3{
+  display: flex;
+  flex-direction: column;
+}
+.himg4{
+  height: 230px;
+  width: 350px;
+  margin-right: 40px;
+}
+.himg5{
+  height: 230px;
+  width: 350px;
+  margin-right: 40px;
+}
+.Hmlates{
+  display: flex;
+  flex-direction: column;
+}
+
+.Addsabove{
+  position: absolute;
+  top: 635%;
+  left: 60px;
+}
+.homelates{
+  display: flex;
+  flex-direction: column;
+}
+.himg6{
+  display: none;
+
+}
+.b3{
+  margin: 0px;
+  margin-top: 20px;
+}
+.lateststory{
+  position: absolute;
+  top: 915%;
+  left: 60px;
+}
+.mimage{
+  position: relative;
+  left: 0px;
+}
+.dbox{
+  
+  border: none;
+  background-color: none;
+}
+.dmainc2{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+}
+
